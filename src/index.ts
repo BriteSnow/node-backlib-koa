@@ -1,2 +1,2 @@
-export * from './koa';
+export * from './base-router';
 

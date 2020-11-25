@@ -1,6 +1,6 @@
 {
   "name": "@backlib/koa",
-  "version": "0.2.0",
+  "version": "0.3.0-SNAPSHOT-02",
   "description": "Minimalist KOA utilities for backend web services",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -19,22 +19,28 @@
   "author": "jeremy.chone@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "@koa/router": "^9.3.1",
-    "@types/koa": "^2.11.3",
-    "@types/koa__router": "^8.0.2",
-    "fs-extra-plus": "^0.5.18",
+    "@koa/router": "^10.0.0",
+    "@types/koa": "^2.11.6",
+    "@types/koa__router": "^8.0.3",
+    "fs-extra-plus": "^0.5.20",
+    "handlebars": "^4.7.6",
+    "js-yaml": "^3.14.0",
     "koa": "^2.13.0",
-    "koa-compose": "^4.1.0"
+    "koa-compose": "^4.1.0",
+    "markdown-it": "^12.0.2"
   },
   "peerDependencies": {
-    "backlib": "^0.2.0"
+    "backlib": "^0.3.0"
   },
   "devDependencies": {
-    "@types/mocha": "^8.0.0",
-    "mocha": "^8.0.1",
+    "@types/js-yaml": "^3.12.5",
+    "@types/markdown-it": "^10.0.3",
+    "@types/mocha": "^8.0.4",
+    "backlib": "^0.3.0",
+    "mocha": "^8.2.1",
     "rimraf": "^3.0.2",
-    "ts-node-dev": "^1.0.0-pre.51",
-    "typescript": "^3.9.6"
+    "ts-node-dev": "^1.0.0",
+    "typescript": "^4.1.2"
   },
   "files": [
     "src/",
