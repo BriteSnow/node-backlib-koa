@@ -1,6 +1,6 @@
 {
   "name": "@backlib/koa",
-  "version": "0.3.4-SNAPHSOT",
+  "version": "0.3.4",
   "description": "Minimalist KOA utilities for backend web services",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
