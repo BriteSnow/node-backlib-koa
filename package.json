@@ -1,6 +1,6 @@
 {
   "name": "@backlib/koa",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "description": "Minimalist KOA utilities for backend web services",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -17,29 +17,28 @@
   "author": "jeremy.chone@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "@koa/router": "^10.0.0",
-    "@types/koa": "^2.13.1",
-    "@types/koa-bodyparser": "^4.3.0",
-    "@types/koa__router": "^8.0.4",
-    "fs-extra-plus": "^0.5.21",
+    "@koa/router": "^10.1.0",
+    "@types/koa": "^2.13.4",
+    "@types/koa__router": "^8.0.7",
+    "fs-extra-plus": "^0.5.22",
     "handlebars": "^4.7.7",
-    "js-yaml": "^4.0.0",
+    "js-yaml": "^4.1.0",
     "koa": "^2.13.1",
     "koa-compose": "^4.1.0",
-    "markdown-it": "^12.0.4"
+    "markdown-it": "^12.1.0"
   },
   "peerDependencies": {
-    "backlib": "^0.3.2"
+    "backlib": "^0.3.3"
   },
   "devDependencies": {
-    "@types/js-yaml": "^4.0.0",
-    "@types/markdown-it": "^12.0.1",
-    "@types/mocha": "^8.2.2",
-    "backlib": "^0.3.2",
-    "mocha": "^8.3.2",
+    "@types/js-yaml": "^4.0.2",
+    "@types/markdown-it": "^12.0.3",
+    "@types/mocha": "^9.0.0",
+    "backlib": "^0.3.3",
+    "mocha": "^9.0.2",
     "rimraf": "^3.0.2",
-    "ts-node-dev": "^1.1.6",
-    "typescript": "^4.2.3"
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
   },
   "files": [
     "src/",
