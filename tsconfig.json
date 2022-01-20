@@ -13,6 +13,8 @@
 		// This is important to support 3rd party modules
 		"moduleResolution": "node", 
 		
+		"declaration": true,
+				
 		// To extract the maximum value from TypeScript, we use strict = true (no implicit, null check, ...)
 		"strict": true, 
 
