@@ -1,2 +1,2 @@
-export * from './base-router';
+export * from './base-router.js';
 
