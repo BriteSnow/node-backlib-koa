@@ -1,7 +1,7 @@
 {
   "name": "@backlib/koa",
   "type": "module",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "description": "Minimalist KOA utilities for backend web services",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -25,10 +25,10 @@
     "koa-compose": "^4.1.0"
   },
   "peerDependencies": {
-    "backlib": "^0.5.2"
-  },  
+    "backlib": "^0.6.0"
+  },
   "devDependencies": {
-    "backlib": "^0.5.2",
+    "backlib": "^0.6.0",
     "rimraf": "^6.1.2",
     "typescript": "^5.9.3"
   },
