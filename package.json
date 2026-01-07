@@ -18,10 +18,10 @@
   "author": "jeremy.chone@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "@koa/router": "^10.1.1",
-    "@types/koa": "^2.13.4",
-    "@types/koa__router": "^8.0.11",
-    "koa": "^2.13.4",
+    "@koa/router": "^15.2.0",
+    "@types/koa": "^3.0.1",
+    "@types/koa__router": "^12.0.5",
+    "koa": "^3.1.1",
     "koa-compose": "^4.1.0"
   },
   "peerDependencies": {
@@ -29,8 +29,8 @@
   },  
   "devDependencies": {
     "backlib": "^0.5.2",
-    "rimraf": "^3.0.2",
-    "typescript": "^4.6.2"
+    "rimraf": "^6.1.2",
+    "typescript": "^5.9.3"
   },
   "files": [
     "src/",

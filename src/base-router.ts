@@ -15,7 +15,7 @@ type ToRegister<S, C> = {
 	routeItems: RouteItem<S, C>[]
 }
 
-export class BaseRouter<S = DefaultState, C = DefaultContext> implements BaseRouterPrototype<S, C> {
+export class BaseRouter<S = DefaultState, C extends DefaultContext = DefaultContext> implements BaseRouterPrototype<S, C> {
 
 	// Note: here declare, because this will be set at the to the constructor function before hand, so no need to emit the var
 	declare readonly __toRegister: ToRegister<S, C>;
