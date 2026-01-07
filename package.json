@@ -1,7 +1,7 @@
 {
   "name": "@backlib/koa",
   "type": "module",
-  "version": "0.6.0",
+  "version": "0.6.1-WIP",
   "description": "Minimalist KOA utilities for backend web services",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
